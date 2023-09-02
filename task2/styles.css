@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2e2929;
+  color: white;
+}
+
+header {
+  background-color: #52e49e;
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.img {
+  height: 20em;
+  width: 20em;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #1417c1;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.project {
+  background-color: #52e49e;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.project a {
+  display: inline-block;
+  color: #1417c1;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
