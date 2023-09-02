@@ -1,0 +1,92 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: hsl(278, 50%, 46%);
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    max-width: 2em;
+    margin-left: 31vw;
+    border-radius: 50%;
+
+}
+
+.hero {
+    background-image: url('/product.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+    color: white;
+}
+
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+button {
+    background-color: hsl(278, 50%, 46%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+    color: hsl(278, 50%, 46%);
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: x-small;
+}
+
+.feature {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: hsl(278, 50%, 46%);
+    color: white;
+}
